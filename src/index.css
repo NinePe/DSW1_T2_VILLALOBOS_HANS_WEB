@@ -1,0 +1,36 @@
+:root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Links básicos, el color final lo maneja App.css */
+a {
+  font-weight: 500;
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Que el body no centre nada, solo reset simple;
+   el fondo y demás lo define App.css */
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* Opcional: título por defecto, casi no lo usas directo */
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+/* Botón base muy neutro; tus .btn de App.css mandan */
+button {
+  font-family: inherit;
+}
